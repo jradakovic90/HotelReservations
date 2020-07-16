@@ -58,7 +58,6 @@ namespace UnitTest
         [TestMethod]
         public void TestCase5()
         {
-
             //according to: "If a booking request arrives and we can accept it, we accept it directly.We do not wait for later requests
             //(e.g.to maximize the utilization of our rooms)" - we used greedy algorithm and by that logic 
             //requests 5 will be declined and 8 will be accepted

@@ -15,7 +15,6 @@ namespace UnitTest
 
             Assert.IsFalse(Program.CreateReservation(-4, 2));
             Assert.IsFalse(Program.CreateReservation(200, 400));
-
         }
 
         [TestMethod]
